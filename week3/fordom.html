@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="name">
+    <input type="text" id="password">
+    <button onclick="myfunc()">Click Me</button>
+    <p id="display">hey there </p>
+    <script>
+        function myfunc(){
+            let name=document.getElementById("name");
+            let password=document.getElementById("password");
+
+            
+            const a=document.getElementById("display").innerText;
+            const b=document.getElementById("display").innerHTML;
+
+            console.log(a);
+            console.log(b);
+        }
+    </script>
+</body>
+</html>
